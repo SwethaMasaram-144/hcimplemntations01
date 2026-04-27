@@ -1,0 +1,5 @@
+{
+    "title":"Doctor Search",
+    "description":"Returns doctors based on the specialization",
+    "lightning:type":"@apexClassType/c__DoctorService$DoctorsData"
+}

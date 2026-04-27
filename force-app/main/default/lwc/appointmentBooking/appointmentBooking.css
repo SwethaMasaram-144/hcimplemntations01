@@ -1,0 +1,38 @@
+.doctor-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.slot-box{
+    border: 1px solid #d8dde6;
+    padding: 8px 12px;
+    margin: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.slot-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.slot-box:hover{
+    background-color: #f3f3f3;
+    color: black;
+}
+
+.selected {
+    background-color: #0176d3;
+    color: white;
+    /* border-color: #0176d3; */
+}
+
+.disabled{
+    background-color: #d8dde6;
+    /* color: #d8dde6; */
+    cursor: not-allowed;
+}
